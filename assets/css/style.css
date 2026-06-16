@@ -51,7 +51,7 @@ img { display: block; max-width: 100%; height: auto; }
 .works__inner, .works__heading, .works__body-inner { width: min(1360px, calc(100% - 80px)); margin: 0 auto; }
 .works--illustration { padding: 145px 0 120px; }
 .section-title { margin: 0 0 72px; font-size: 30px; line-height: 1; }
-.illust-slider { display: grid; grid-template-columns: 180px 350px 240px 240px; gap: 36px; align-items: center; }
+.illust-slider { display: grid; grid-template-columns: 320px 500px 320px 320px; gap: 36px; align-items: center; }
 .illust-card img { width: 100%; border-radius: 10px; }
 .illust-card p { margin: 14px 0 0; font-size: 11px; text-align: center; }
 .illust-card--large img { aspect-ratio: 1 / 1.08; object-fit: cover; }
