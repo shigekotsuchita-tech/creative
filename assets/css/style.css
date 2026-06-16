@@ -61,14 +61,14 @@ img { display: block; max-width: 100%; height: auto; }
 .works__heading { padding-bottom: 56px; }
 .works__heading .section-title { margin: 0; text-align: left; }
 .works--web .works__body, .works--video .works__body { background: linear-gradient(to bottom, var(--pale) 0 78%, #fff 78% 100%); padding: 96px 0 0; }
-.works__body-inner--web { display: grid; grid-template-columns: 320px 360px 520px; gap: 80px; align-items: start; }
+.works__body-inner--web { display: grid; grid-template-columns: 320px 360px 500px; gap: 80px; align-items: start; }
 .works__body-inner--video { display: grid; grid-template-columns: 320px 1fr; gap: 80px; align-items: start; }
 .works__lead p { margin: 0 0 64px; font-size: 14px; line-height: 2.1; }
 .web-card, .video-card, .graphic-card { text-align: center; }
 .web-card h3, .video-card h3, .graphic-card h3 { margin: 0 0 8px; font-size: 20px; line-height: 1.4; }
 .web-card p, .video-card p, .graphic-card p { margin: 0 0 30px; font-size: 12px; line-height: 1.5; }
 .web-card img { display: block; margin: 0 auto; border-radius: 10px; }
-.web-card--sp img { width: 300px; }
+.web-card--sp img { width: 345px; }
 .web-card--pc img { width: 520px; }
 
 .works--graphic { padding: 140px 0 140px; background: #fff; }
