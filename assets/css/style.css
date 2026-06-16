@@ -166,7 +166,7 @@ img { display: block; max-width: 100%; height: auto; }
   .works--web .works__body, .works--video .works__body { background: var(--pale); padding: 64px 0 70px; }
   .works__body-inner--web, .works__body-inner--video, .works__inner--graphic { display: block; }
   .works__heading .section-title, .works--graphic .works__lead .section-title { text-align: center; }
-  .works--graphic .works__lead .section-title {margin-bottom: 0px;}
+  .works--graphic .works__lead .section-title {margin: 0px;}
   .works__lead { text-align: center; margin-bottom: 42px; }
   .works__lead p, .works works--graphic .works__lead p { width: 90%; margin: 0 auto 34px; text-align: left; font-size: 14px; font-weight: 300;}
   .web-card, .graphic-card { margin-bottom: 46px; }
