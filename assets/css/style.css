@@ -386,8 +386,7 @@ img { display: block; max-width: 100%; height: auto; }
 
   .picture-book__title-block,
   .picture-book__text,
-  .picture-book__mini,
-  .character-section--product, .character-section__body{
+  .picture-book__mini {
     position: static;
   }
 
@@ -400,7 +399,7 @@ img { display: block; max-width: 100%; height: auto; }
     font-size: 24px;
   }
 
-  .picture-book__text {
+  .picture-book__text, .character-section--product, .character-section__body {
     margin-top: 30px;
     font-size: 13px;
     line-height: 2.1;
