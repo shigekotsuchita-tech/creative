@@ -134,12 +134,6 @@ img { display: block; max-width: 100%; height: auto; }
 .story-bottom { width: calc(100% - 48px); margin: -20px auto 0; padding: 88px 0 70px; background: var(--pale); }
 .story-bottom img { width: 120px; }
 
-@media (min-width: 767px) {
-  .sp {
-    display: none;
-  }
-}
-
 @media (max-width: 767px) {
   .pc {display: none;}
   body { font-size: 13px; }
@@ -543,19 +537,19 @@ img { display: block; max-width: 100%; height: auto; }
   .story-gallery--pc {
     display: none;
   }
-
+  .sp {
+    display: none;
+  }
   .story-gallery-sp {
     display: block;
     width: 100%;
     margin: 60px auto 0;
   }
-
   .story-gallery-sp img {
     display: block;
     width: 100%;
     height: auto;
   }
-
   .story-bottom img {
     width: 120px;
   }
