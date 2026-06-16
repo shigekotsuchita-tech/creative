@@ -92,13 +92,13 @@ img { display: block; max-width: 100%; height: auto; }
 .breadcrumb a::after { content: "/"; margin: 0 12px; color: #aaa; }
 
 .character-section__inner { position: relative; width: min(1040px, calc(100% - 160px)); margin: 0 auto; }
-.character-section__heading span, .character-story span { display: block; margin-bottom: 28px; color: #5f74c5; font-size: 11px; font-weight: 700; }
+.character-section__heading span, .character-story span { display: block; margin-bottom: 28px; color: #5f74c5; font-size: 14px; font-weight: 700; letter-spacing: .2em;}
 .character-section__heading h1, .character-section__heading h2, .character-story h2 { margin: 0; font-size: 32px; line-height: 1.5; }
 
 .character-section--coffee { position: relative; padding: 0; background: linear-gradient(to bottom, #fff 0 300px, var(--pale) 300px 100%); border-radius: 0 0 0 56px; }
 .character-section--coffee .character-section__inner { display: grid; grid-template-columns: 260px 1fr 160px; column-gap: 40px; align-items: start; }
 .character-section--coffee .character-section__heading { grid-column: 1 / 2; }
-.character-section--coffee .character-section__body { grid-column: 2 / 3; margin: 54px 0 0; font-size: 16px; }
+.character-section--coffee .character-section__body { grid-column: 2 / 3; margin: 40px 0 0; font-size: 16px; line-height: 2.4; font-weight: 300;}
 .character-section__mini { grid-column: 3 / 4; width: 130px; margin-top: 24px; }
 .character-movie { grid-column: 2 / 3; width: 100%; height: 330px; margin-top: 52px; background: #d9d9d9; }
 .character-movie iframe { display: block; width: 100%; height: 100%; border: 0; }
@@ -176,7 +176,7 @@ img { display: block; max-width: 100%; height: auto; }
   .character-hero { border-radius: 0 0 24px 24px; }
   .character-hero__inner { width: 100%; height: 292px; padding: 72px 22px 28px; }
   .character-hero__title { left: 20%; top: 86px; }
-  .character-hero__jp { font-size: 60px; }
+  .character-hero__jp { font-size: 64px; }
   .character-hero__en { margin-top: 14px; font-size: 8px; }
   .character-hero__image { right: 6%; bottom: 24px; width: 62%; }
   .breadcrumb { display: none; }
