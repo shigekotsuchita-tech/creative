@@ -168,7 +168,7 @@ img { display: block; max-width: 100%; height: auto; }
   .works__heading .section-title, .works--graphic .works__lead .section-title { text-align: center; }
   .works--graphic .works__lead .section-title {margin:0 0 40px 0px;}
   .works__lead { text-align: center; margin-bottom: 42px; }
-  .works__lead p, .works works--graphic .works__lead p { width: 90%; margin: 0 auto 34px; text-align: left; font-size: 14px; font-weight: 300;}
+  .works__lead p, .works works--graphic .works__lead p { width: 90%; margin: 0 auto 50px; text-align: left; font-size: 14px; font-weight: 300;}
   .web-card, .graphic-card { margin-bottom: 46px; }
   .web-card h3, .video-card h3 { font-size: 20px; }
   .web-card p, .video-card p { margin-bottom: 20px; font-size: 14px; }
