@@ -152,8 +152,8 @@ img { display: block; max-width: 100%; height: auto; }
   .kv__title { font-size: 19px; margin-bottom: 26px; }
   .kv__text { font-size: 11px; line-height: 2.6; margin-bottom: 26px; }
   .kv__links { gap: 16px; }
-  .text-link { min-width: 108px; padding-left: 18px; font-size: 10px; }
-  .text-link::after { width: 108px; }
+  .text-link { min-width: 164px; padding-left: 18px; font-size: 16px; }
+  .text-link::after { width: 164px; }
 
   .works__inner, .works__heading, .works__body-inner { width: calc(100% - 48px); }
   .works__heading {padding-bottom: 26px;}
@@ -167,7 +167,7 @@ img { display: block; max-width: 100%; height: auto; }
   .works__body-inner--web, .works__body-inner--video, .works__inner--graphic { display: block; }
   .works__heading .section-title, .works--graphic .works__lead .section-title { text-align: center; }
   .works__lead { text-align: center; margin-bottom: 42px; }
-  .works__lead p { width: 250px; margin: 0 auto 34px; text-align: left; font-size: 12px; }
+  .works__lead p { width: 80%; margin: 0 auto 34px; text-align: left; font-size: 14px; }
   .web-card, .graphic-card { margin-bottom: 46px; }
   .web-card h3, .video-card h3 { font-size: 15px; }
   .web-card p, .video-card p { margin-bottom: 18px; font-size: 10px; }
