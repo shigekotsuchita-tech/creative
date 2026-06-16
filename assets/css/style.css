@@ -134,7 +134,7 @@ img { display: block; max-width: 100%; height: auto; }
 .story-bottom img { width: 120px; }
 
 @media (max-width: 767px) {
-  .pc {display: none;}
+  div.pc {display: none;}
   body { font-size: 13px; }
   .site-header { top: 24px; left: 20px; right: 20px; }
   .site-header__logo { font-size: 10px; }
