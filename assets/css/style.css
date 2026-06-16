@@ -508,7 +508,7 @@ img { display: block; max-width: 100%; height: auto; }
 
 .story-gallery__item--bread {
   right: -40px;
-  top: 60px;
+  top: 100px;
   width: 720px;
   border-radius: 0;
 }
