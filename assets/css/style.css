@@ -392,7 +392,7 @@ img { display: block; max-width: 100%; height: auto; }
   }
 
   .picture-book__label, .character-section__heading span, .character-story span {
-    margin-bottom: 26px;
+    margin-bottom: 20px;
     font-size: 10px;
   }
 
