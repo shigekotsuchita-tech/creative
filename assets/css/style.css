@@ -537,9 +537,6 @@ img { display: block; max-width: 100%; height: auto; }
   .story-gallery--pc {
     display: none;
   }
-  .sp {
-    display: none;
-  }
   .story-gallery-sp {
     display: block;
     width: 100%;
