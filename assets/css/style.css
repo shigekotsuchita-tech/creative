@@ -156,6 +156,7 @@ img { display: block; max-width: 100%; height: auto; }
   .text-link::after { width: 108px; }
 
   .works__inner, .works__heading, .works__body-inner { width: calc(100% - 48px); }
+  .works__heading {padding-bottom: 26px;}
   .works--illustration { padding: 70px 0 80px; }
   .section-title { margin-bottom: 42px; font-size: 32px; text-align: center; }
   .illust-slider, .video-slider { display: flex; gap: 20px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 24px; }
