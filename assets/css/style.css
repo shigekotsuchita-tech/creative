@@ -473,7 +473,7 @@ img { display: block; max-width: 100%; height: auto; }
   position: relative;
   width: min(1560px, calc(100% - 70px));
   height: 980px;
-  margin: 118px auto 0;
+  margin: 240px auto 0;
   display: block;
 }
 
