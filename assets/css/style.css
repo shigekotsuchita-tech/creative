@@ -134,6 +134,12 @@ img { display: block; max-width: 100%; height: auto; }
 .story-bottom { width: calc(100% - 48px); margin: -20px auto 0; padding: 88px 0 70px; background: var(--pale); }
 .story-bottom img { width: 120px; }
 
+@media (min-width: 767px) {
+  .sp {
+    display: none;
+  }
+}
+
 @media (max-width: 767px) {
   .pc {display: none;}
   body { font-size: 13px; }
