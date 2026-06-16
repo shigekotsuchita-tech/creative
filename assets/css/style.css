@@ -170,7 +170,7 @@ img { display: block; max-width: 100%; height: auto; }
   .works__lead { text-align: center; margin-bottom: 42px; }
   .works__lead p { width: 80%; margin: 0 auto 34px; text-align: left; font-size: 14px; font-weight: 300;}
   .web-card, .graphic-card { margin-bottom: 46px; }
-  .web-card h3, .video-card h3 { font-size: 15px; }
+  .web-card h3, .video-card h3 { font-size: 20px; }
   .web-card p, .video-card p { margin-bottom: 18px; font-size: 10px; }
   .web-card--sp img, .web-card--pc img, .graphic-card img { width: min(300px, 100%); }
   .video-card iframe { height: 300px; }
