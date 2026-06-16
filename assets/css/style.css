@@ -515,7 +515,7 @@ img { display: block; max-width: 100%; height: auto; }
 .story-bottom {
   width: 100%;
   margin: -160px auto 0;
-  padding: 190px 0 90px;
+  padding: 190px 0 40px;
   background: var(--pale);
   text-align: center;
 }
