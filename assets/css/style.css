@@ -398,9 +398,10 @@ img { display: block; max-width: 100%; height: auto; }
   }
 
   .picture-book__text {
-    margin-top: 24px;
-    font-size: 12px;
+    margin-top: 30px;
+    font-size: 13px;
     line-height: 2.1;
+    font-weight: 300;
   }
 
   .picture-book__mini {
@@ -408,9 +409,9 @@ img { display: block; max-width: 100%; height: auto; }
   }
 
   .picture-book__body {
-    width: calc(100% - 48px);
+    width: calc(96% - 48px);
     height: auto;
-    margin: 28px auto 0;
+    margin: 30px auto 0;
   }
 
   .picture-book__cover,
@@ -431,8 +432,11 @@ img { display: block; max-width: 100%; height: auto; }
     position: relative;
     left: auto;
     top: auto;
-    margin-top: 18px;
+    margin-top: 30px;
     transform: none;
+  }
+  .picture-book__buttons .button {
+    min-width:160px;
   }
 
   .picture-book .sns-grid {
