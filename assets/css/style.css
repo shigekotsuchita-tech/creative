@@ -84,9 +84,9 @@ img { display: block; max-width: 100%; height: auto; }
 .character-hero { width: 100%; background: var(--pale); border-radius: 0 0 56px 56px; overflow: hidden; }
 .character-hero__inner { position: relative; width: min(1360px, calc(100% - 80px)); height: 900px; margin: 0 auto; }
 .character-hero__title { position: absolute; left: 20%; top: 210px; z-index: 2; color: #5c72bd; }
-.character-hero__jp { margin: 0; font-size: 64px; line-height: 1.15; font-weight: 500; letter-spacing: .12em; }
+.character-hero__jp { margin: 0; font-size: 68px; line-height: 1.15; font-weight: 500; letter-spacing: .12em; }
 .character-hero__en { margin: 26px 0 0; font-size: 12px; letter-spacing: .5em; }
-.character-hero__image { position: absolute; right: 16%; bottom: 74px; width: min(520px, 42vw); max-width: none; }
+.character-hero__image { position: absolute; right: 12%; bottom: 130px; width: min(625px, 54vw); max-width: none; }
 
 .breadcrumb { width: min(1360px, calc(100% - 160px)); margin: 22px auto 96px; font-size: 10px; color: #6b7fc6; }
 .breadcrumb a::after { content: "/"; margin: 0 12px; color: #aaa; }
