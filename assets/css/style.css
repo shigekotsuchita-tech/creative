@@ -217,7 +217,7 @@ img { display: block; max-width: 100%; height: auto; }
 .character-section--coffee {
   position: relative !important;
   padding: 0 !important;
-  background: linear-gradient(to bottom, #fff 0 360px, var(--pale) 360px 100%) !important;
+  background: linear-gradient(to bottom, #fff 0 480px, var(--pale) 480px 100%) !important;
   overflow: hidden !important;
   border-radius: 0 !important;
 }
