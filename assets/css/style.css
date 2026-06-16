@@ -45,7 +45,7 @@ img { display: block; max-width: 100%; height: auto; }
 
 .text-link { position: relative; display: inline-block; min-width: 150px; padding: 0 0 14px 28px; font-weight: 700; }
 .text-link::before { content: "▷"; position: absolute; left: 0; top: 0; font-size: 10px; }
-.text-link::after { content: ""; position: absolute; left: 0; bottom: 0; width: 150px; height: 1px; background: currentColor; opacity: .8; }
+.text-link::after { content: ""; position: absolute; left: 0; bottom: 0; width: 180px; height: 1px; background: currentColor; opacity: .8; }
 .text-link--dark { color: #333; font-size: 12px; }
 
 .works__inner, .works__heading, .works__body-inner { width: min(1360px, calc(100% - 80px)); margin: 0 auto; }
