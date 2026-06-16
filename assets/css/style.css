@@ -73,7 +73,6 @@ img { display: block; max-width: 100%; height: auto; }
 .works--graphic { padding: 140px 0 140px; background: #fff; }
 .works__inner--graphic { display: grid; grid-template-columns: 360px 520px 520px; gap: 70px; align-items: start; }
 .works--graphic .works__lead .section-title { margin: 0 0 120px; text-align: left; }
-.works--graphic .works__lead p { margin: 0; }
 .graphic-card img { width: 520px; margin: 0 auto 34px; }
 
 .video-slider { display: grid; grid-template-columns: repeat(3, 1fr); gap: 36px; }
@@ -167,6 +166,7 @@ img { display: block; max-width: 100%; height: auto; }
   .works--web .works__body, .works--video .works__body { background: var(--pale); padding: 64px 0 70px; }
   .works__body-inner--web, .works__body-inner--video, .works__inner--graphic { display: block; }
   .works__heading .section-title, .works--graphic .works__lead .section-title { text-align: center; }
+  .works--graphic .works__lead .section-title {margin-bottom: 0px;}
   .works__lead { text-align: center; margin-bottom: 42px; }
   .works__lead p, .works works--graphic .works__lead p { width: 90%; margin: 0 auto 34px; text-align: left; font-size: 14px; font-weight: 300;}
   .web-card, .graphic-card { margin-bottom: 46px; }
