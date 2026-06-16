@@ -164,7 +164,7 @@ img { display: block; max-width: 100%; height: auto; }
   .works__heading {padding-bottom: 26px;}
   .works--illustration { padding: 70px 0 80px; }
   .section-title { margin-bottom: 42px; font-size: 32px; text-align: center; }
-  .illust-slider, .video-slider { display: flex; gap: 20px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 24px; }
+  .illust-slider, .video-slider { display: flex; gap: 20px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 50px; }
   .illust-card, .video-card { flex: 0 0 170px; scroll-snap-align: center; }
   .illust-card--large { flex-basis: 250px; }
   .works--web { padding-bottom: 0px; }
