@@ -154,6 +154,7 @@ img { display: block; max-width: 100%; height: auto; }
   .kv__links { gap: 16px; }
   .text-link { min-width: 210px; padding-left: 18px; font-size: 16px; }
   .text-link::after { width: 210px; }
+  .text-link::before { content: "▷"; position: absolute; left: 0; top: 6px; font-size: 10px; }
 
   .works__inner, .works__heading, .works__body-inner { width: calc(100% - 48px); }
   .works__heading {padding-bottom: 26px;}
