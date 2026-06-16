@@ -145,7 +145,7 @@ img { display: block; max-width: 100%; height: auto; }
   .global-menu__close { top: 24px; right: 32px; }
 
   .kv { height: 568px; }
-  .kv__movie iframe { transform: scale(2.4); }
+  .kv__movie iframe { transform: scale(2.8); }
   .kv__line-art { top: auto; bottom: 34px; left: -30px; width: 92%; }
   .kv__content { top: 140px; right: auto; left: 48px; width: calc(100% - 80px); }
   .kv__title { font-size: 19px; margin-bottom: 26px; }
