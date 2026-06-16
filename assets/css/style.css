@@ -196,7 +196,7 @@ img { display: block; max-width: 100%; height: auto; }
   .character-section--product { border-radius: 0 0 0px 26px; background: linear-gradient(to bottom, var(--pale) 0 85%, #fff 85% 100%); }
   .character-section--product .button {display: block; margin: 30px auto; text-align: center; line-height: 50px; width: 70%;}
   .character-section__inner--product { width: calc(100% - 48px); display: block; }
-  .product-main { width: calc(90% + 24px); margin: 28px -24px 24px auto; border-radius: 14px 0 0 14px; }
+  .product-main { width: calc(90% + 24px); margin: 28px -40px 24px auto; border-radius: 14px 0 0 14px; }
   .product-thumbs { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 24px; }
   .product-thumbs img { width: 100%; }
 
