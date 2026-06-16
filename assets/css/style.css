@@ -87,7 +87,7 @@ img { display: block; max-width: 100%; height: auto; }
 .character-hero__title { position: absolute; left: 20%; top: 255px; z-index: 2; color: #5c72bd; }
 .character-hero__jp { margin: 0; font-size: 70px; line-height: 1.15; font-weight: 500; letter-spacing: .12em; }
 .character-hero__en { margin: 26px 0 0; font-size: 12px; letter-spacing: .5em; }
-.character-hero__image { position: absolute; right: 12%; bottom: 74px; width: min(520px, 42vw); max-width: none; }
+.character-hero__image { position: absolute; right: 12%; bottom: 74px; width: min(625px, 52vw); max-width: none; }
 
 .breadcrumb { width: min(1040px, calc(100% - 160px)); margin: 22px auto 96px; font-size: 10px; color: #6b7fc6; }
 .breadcrumb a::after { content: "/"; margin: 0 12px; color: #aaa; }
