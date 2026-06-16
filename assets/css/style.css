@@ -152,7 +152,7 @@ img { display: block; max-width: 100%; height: auto; }
   .kv__title { font-size: 19px; margin-bottom: 26px; }
   .kv__text { font-size: 11px; line-height: 2.6; margin-bottom: 26px; }
   .kv__links { gap: 16px; }
-  .text-link { min-width: 120px; padding-left: 18px; font-size: 16px; }
+  .text-link { min-width: 120px; padding-left: 18px; font-size: 14px; }
   .text-link::after { width: 100%; }
   .text-link::before { content: "▷"; position: absolute; left: 0; top: 6px; font-size: 10px; }
 
@@ -373,7 +373,6 @@ img { display: block; max-width: 100%; height: auto; }
 }
 
 @media (max-width: 767px) {
-  .sp {display: block;}
   .character-section--coffee {
     background: linear-gradient(to bottom, #fff 0 390px, var(--pale) 390px 100%) !important;
   }
