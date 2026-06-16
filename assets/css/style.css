@@ -393,7 +393,7 @@ img { display: block; max-width: 100%; height: auto; }
     font-size: 10px;
   }
 
-  .picture-book__title {
+  .picture-book__title, .character-section__heading h1, .character-section__heading h2, .character-story h2 {
     font-size: 24px;
   }
 
