@@ -134,6 +134,10 @@ img { display: block; max-width: 100%; height: auto; }
 .story-bottom { width: calc(100% - 48px); margin: -20px auto 0; padding: 88px 0 70px; background: var(--pale); }
 .story-bottom img { width: 120px; }
 
+@media (min-width: 768px) {
+  .sp {display: none;}
+}
+
 @media (max-width: 767px) {
   .pc {display: none;}
   body { font-size: 13px; }
@@ -373,10 +377,11 @@ img { display: block; max-width: 100%; height: auto; }
 }
 
 @media (max-width: 767px) {
+  
   .character-section--coffee {
     background: linear-gradient(to bottom, #fff 0 390px, var(--pale) 390px 100%) !important;
   }
-
+  
   .picture-book {
     min-height: auto;
     padding: 66px 0 0;
