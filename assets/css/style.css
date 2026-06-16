@@ -201,6 +201,7 @@ img { display: block; max-width: 100%; height: auto; }
   .product-thumbs img { width: 100%; }
 
   .character-story { padding-top: 80px; }
+  .character-story h3 { font-size: 16px; margin-top: 40px;}
   .character-story__inner { display: block; }
   .character-story__inner img { margin-top: 40px; }
   .story-gallery { width: calc(85% - 48px); margin: 60px auto 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
