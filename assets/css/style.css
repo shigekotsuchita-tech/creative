@@ -304,7 +304,7 @@ img { display: block; max-width: 100%; height: auto; }
 .picture-book__cover {
   position: absolute;
   left: calc(45% - 675px);
-  top: 260px;
+  top: 330px;
   width: 240px;
   max-width: none;
   z-index: 3;
