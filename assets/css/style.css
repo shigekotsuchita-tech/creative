@@ -538,13 +538,6 @@ img { display: block; max-width: 100%; height: auto; }
     height: auto;
   }
 
-  .story-bottom {
-    width: 100%;
-    margin: 0 auto;
-    padding: 70px 0 70px;
-    background: var(--pale);
-  }
-
   .story-bottom img {
     width: 120px;
   }
