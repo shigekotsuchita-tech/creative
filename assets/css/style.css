@@ -8,6 +8,7 @@
   --font: "Helvetica Neue", Arial, "Hiragino Sans", "Yu Gothic", sans-serif;
 }
 
+h1, h2 {font-weight: 500;}
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body { margin: 0; color: var(--text); font-family: var(--font); font-size: 14px; line-height: 1.9; letter-spacing: .04em; background: #fff; }
