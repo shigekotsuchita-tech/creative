@@ -98,6 +98,7 @@ img { display: block; max-width: 100%; height: auto; }
 
 .character-section--coffee { position: relative; padding: 0; background: linear-gradient(to bottom, #fff 0 300px, var(--pale) 300px 100%); border-radius: 0 0 0 56px; }
 .character-section--coffee .character-section__inner { display: grid; grid-template-columns: 260px 1fr 160px; column-gap: 40px; align-items: start; }
+.character-section--coffee .character-section__book { display: grid; grid-template-columns: 260px 1fr 160px; column-gap: 40px; align-items: start; }
 .character-section--coffee .character-section__heading { grid-column: 1 / 2; }
 .character-section--coffee .character-section__body { grid-column: 2 / 3; margin: 40px 0 0; font-size: 16px; line-height: 2.4; font-weight: 300;}
 .character-section__mini { grid-column: 3 / 4; width: 130px; margin-top: 24px; }
