@@ -83,8 +83,8 @@ img { display: block; max-width: 100%; height: auto; }
 /* CHARACTER */
 .character-hero { width: 100%; background: var(--pale); border-radius: 0 0 56px 56px; overflow: hidden; }
 .character-hero__inner { position: relative; width: min(1360px, calc(100% - 80px)); height: 650px; margin: 0 auto; }
-.character-hero__title { position: absolute; left: 30%; top: 255px; z-index: 2; color: #5c72bd; }
-.character-hero__jp { margin: 0; font-size: 48px; line-height: 1.15; font-weight: 500; letter-spacing: .12em; }
+.character-hero__title { position: absolute; left: 20%; top: 210px; z-index: 2; color: #5c72bd; }
+.character-hero__jp { margin: 0; font-size: 64px; line-height: 1.15; font-weight: 500; letter-spacing: .12em; }
 .character-hero__en { margin: 26px 0 0; font-size: 12px; letter-spacing: .5em; }
 .character-hero__image { position: absolute; right: 16%; bottom: 74px; width: min(520px, 42vw); max-width: none; }
 
