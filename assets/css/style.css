@@ -82,7 +82,7 @@ img { display: block; max-width: 100%; height: auto; }
 
 /* CHARACTER */
 .character-hero { width: 100%; background: var(--pale); border-radius: 0 0 56px 56px; overflow: hidden; }
-.character-hero__inner { position: relative; width: min(1360px, calc(100% - 80px)); height: 650px; margin: 0 auto; }
+.character-hero__inner { position: relative; width: min(1360px, calc(100% - 80px)); height: 900px; margin: 0 auto; }
 .character-hero__title { position: absolute; left: 20%; top: 210px; z-index: 2; color: #5c72bd; }
 .character-hero__jp { margin: 0; font-size: 64px; line-height: 1.15; font-weight: 500; letter-spacing: .12em; }
 .character-hero__en { margin: 26px 0 0; font-size: 12px; letter-spacing: .5em; }
@@ -93,7 +93,7 @@ img { display: block; max-width: 100%; height: auto; }
 
 .character-section__inner { position: relative; width: min(1040px, calc(100% - 160px)); margin: 0 auto; }
 .character-section__heading span, .character-story span { display: block; margin-bottom: 28px; color: #5f74c5; font-size: 14px; font-weight: 700; letter-spacing: .2em;}
-.character-section__heading h1, .character-section__heading h2, .character-story h2 { margin: 0; font-size: 32px; line-height: 1.5; }
+.character-section__heading h1, .character-section__heading h2, .character-story h2 { margin: 0; font-size: 40px; line-height: 1.5; font-weight: 500; letter-spacing: 0.15em;}
 
 .character-section--coffee { position: relative; padding: 0; background: linear-gradient(to bottom, #fff 0 300px, var(--pale) 300px 100%); border-radius: 0 0 0 56px; }
 .character-section--coffee .character-section__inner { display: grid; grid-template-columns: 260px 1fr 160px; column-gap: 40px; align-items: start; }
