@@ -135,7 +135,7 @@ img { display: block; max-width: 100%; height: auto; }
 .story-bottom img { width: 120px; }
 
 @media (max-width: 767px) {
-  .sp.text-link {
+  .sp {
     display: block;
   }
   .pc {display: none;}
