@@ -155,7 +155,7 @@ img { display: block; max-width: 100%; height: auto; }
   .kv__title { font-size: 19px; margin-bottom: 26px; text-align: center;}
   .kv__text { font-size: 11px; line-height: 2.6; margin-bottom: 26px; text-align: center;}
   .kv__links { gap: 36px; }
-  .text-link { width: 60%; font-size: 14px; margin: 0 auto;}
+  .text-link { width: 100%; font-size: 14px; margin: 0 auto;}
   .text-link::after { width: 100%; }
   .text-link::before { content: "▷"; position: absolute; left: 0; top: 6px; font-size: 10px; }
 
