@@ -56,7 +56,6 @@ img { max-width: 100%; display: block; }
       max-width: 700px;
       width: 100%;
       margin: 0 auto;
-      background: #f0f0f0;
       aspect-ratio: 700 / 400;
       display: flex;
       align-items: center;
@@ -80,7 +79,6 @@ img { max-width: 100%; display: block; }
       margin: 0 auto 32px;
       width: 200px;
       height: 80px;
-      background: #f0f0f0;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -154,7 +152,6 @@ img { max-width: 100%; display: block; }
     .harmonia__logo-img {
       width: 240px;
       height: 60px;
-      background: #f0f0f0;
       display: inline-flex;
       align-items: center;
       justify-content: center;
@@ -177,7 +174,6 @@ img { max-width: 100%; display: block; }
     .access__text strong { font-weight: 500; display: block; margin-bottom: 4px; }
 
     .access__map {
-      background: #e8e8e8;
       border-radius: 4px;
       aspect-ratio: 4/3;
       display: flex;
@@ -201,7 +197,6 @@ img { max-width: 100%; display: block; }
     .entrance__text h3 { font-size: 13px; font-weight: 500; margin-bottom: 12px; }
 
     .entrance__img {
-      background: #e8e8e8;
       border-radius: 4px;
       aspect-ratio: 4/3;
       display: flex;
