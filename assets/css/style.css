@@ -51,6 +51,7 @@ br.sp {display: block;}
 .text-link--dark { color: #333; font-size: 12px; }
 
 .works__inner, .works__heading, .works__body-inner { width: min(1360px, calc(100% - 80px)); margin: 0 auto; }
+.works__inner__illust { width: min(1600px, calc(100% - 80px)); margin: 0 auto; }
 .works--illustration { padding: 145px 0 120px; }
 .section-title { margin: 0; font-size: 40px; line-height: 1; font-weight: 500;}
 .illust-slider { display: grid; grid-template-columns: 320px 500px 320px 320px; gap: 36px; align-items: center; }
