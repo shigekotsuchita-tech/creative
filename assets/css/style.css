@@ -208,7 +208,7 @@ br.sp {display: block;}
   .sns-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; margin-top: 62px; padding-bottom: 70px; }
   .sns-grid a { width: auto; }
 
-  .character-section--product {padding: 0; border-radius: 0 0 0px 26px; background: linear-gradient(to bottom, var(--pale) 0 85%, #fff 85% 100%); }
+  .character-section--product {padding: 0; border-radius: 0 0 0px 26px; background: linear-gradient(to bottom, var(--pale) 0 80%, #fff 80% 100%); }
   .character-section--product .button {display: block; margin: 30px auto; text-align: center; line-height: 50px; width: 70%;}
   .character-section__inner--product { width: calc(100% - 48px); display: block; }
   .product-main { width: calc(90% + 24px); margin: 28px -40px 24px auto; border-radius: 14px 0 0 14px; }
