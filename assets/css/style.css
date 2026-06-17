@@ -137,7 +137,7 @@ img { display: block; max-width: 100%; height: auto; }
 @media (max-width: 767px) {
   .sp {
     display: block;
-    width: 100%;
+    width: 60%;
     margin: 0 auto;
   }
   .pc {display: none;}
