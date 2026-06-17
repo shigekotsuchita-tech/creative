@@ -160,6 +160,7 @@ img { display: block; max-width: 100%; height: auto; }
   .text-link { width: 100%; font-size: 14px; margin: 0 auto;}
   .text-link::after { width: 100%; }
   .text-link::before { content: "▷"; position: absolute; left: 0; top: 6px; font-size: 10px; }
+  .kv__links .text-link { width: 90%; }
 
   .works__inner, .works__heading, .works__body-inner { width: calc(100% - 48px); }
   .works__heading {padding-bottom: 26px;}
