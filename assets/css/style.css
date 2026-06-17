@@ -141,6 +141,9 @@ br.sp {display: block;}
     width: 44%;
     margin: 0 auto;
   }
+  br.sp {
+    display: none;
+  }
   .pc {display: none;}
   body { font-size: 13px; }
   .site-header { top: 24px; left: 20px; right: 20px; }
