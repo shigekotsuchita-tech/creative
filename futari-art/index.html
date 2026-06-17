@@ -1,28 +1,457 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+
+<!DOCTYPE html>
+<html lang="ja">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2685.6">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
-    span.s1 {font-kerning: none}
-    span.s2 {font: 12.0px 'Hiragino Mincho ProN'; font-kerning: none}
-    span.s3 {text-decoration: underline ; font-kerning: none; color: #0000e9; -webkit-text-stroke: 0px #0000e9}
-    td.td1 {width: 1516.3px; margin: 0.5px 0.5px 0.5px 0.5px; padding: 1.0px 1.0px 1.0px 1.0px}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harmony of Life | 土田恵子・たかぎちず 2人展</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --white: #ffffff;
+      --bg: #fafafa;
+      --text: #2c2c2c;
+      --text-light: #666;
+      --border: #e0e0e0;
+      --yellow: #d4c832;
+      --pink: #e8a0a0;
+      --font: 'Noto Sans JP', sans-serif;
+    }
+
+    body { font-family: var(--font); color: var(--text); font-weight: 300; background: var(--white); }
+
+    img { max-width: 100%; display: block; }
+
+    /* KV */
+    .kv {
+      width: 100%;
+      background: var(--bg);
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .kv__label {
+      font-size: 12px;
+      letter-spacing: 0.15em;
+      margin-bottom: 16px;
+      color: var(--text-light);
+    }
+
+    .kv__img {
+      max-width: 700px;
+      width: 100%;
+      margin: 0 auto;
+      background: #f0f0f0;
+      aspect-ratio: 700 / 400;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #aaa;
+      font-size: 13px;
+      border-radius: 4px;
+    }
+
+    .kv__img img { width: 100%; height: 100%; object-fit: cover; border-radius: 4px; }
+
+    /* INTRO */
+    .intro {
+      max-width: 680px;
+      margin: 60px auto;
+      padding: 0 24px;
+      text-align: center;
+    }
+
+    .intro__logo {
+      margin: 0 auto 32px;
+      width: 200px;
+      height: 80px;
+      background: #f0f0f0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #aaa;
+      font-size: 12px;
+      border-radius: 4px;
+    }
+
+    .intro__logo img { width: 100%; }
+
+    .intro__text {
+      font-size: 14px;
+      line-height: 2.4;
+      color: var(--text);
+    }
+
+    /* OVERVIEW */
+    .overview {
+      max-width: 800px;
+      margin: 0 auto 60px;
+      padding: 0 24px;
+    }
+
+    .section-title {
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: 0.15em;
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .overview__table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .overview__table tr {
+      border-bottom: 1px solid var(--border);
+    }
+
+    .overview__table th {
+      width: 120px;
+      padding: 20px 0;
+      font-size: 13px;
+      font-weight: 400;
+      color: var(--text-light);
+      vertical-align: top;
+      white-space: nowrap;
+    }
+
+    .overview__table td {
+      padding: 20px 0;
+      font-size: 13px;
+      line-height: 2;
+    }
+
+    /* HARMONIA */
+    .harmonia {
+      max-width: 800px;
+      margin: 0 auto 60px;
+      padding: 0 24px;
+    }
+
+    .harmonia__logo {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .harmonia__logo-img {
+      width: 240px;
+      height: 60px;
+      background: #f0f0f0;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: #aaa;
+      font-size: 12px;
+      border-radius: 4px;
+    }
+
+    .harmonia__logo-img img { width: 100%; }
+
+    .access {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+      margin-bottom: 40px;
+    }
+
+    .access__text { font-size: 12px; line-height: 2; color: var(--text); }
+    .access__text p { margin-bottom: 16px; }
+    .access__text strong { font-weight: 500; display: block; margin-bottom: 4px; }
+
+    .access__map {
+      background: #e8e8e8;
+      border-radius: 4px;
+      aspect-ratio: 4/3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #aaa;
+      font-size: 12px;
+      overflow: hidden;
+    }
+
+    .access__map img { width: 100%; height: 100%; object-fit: cover; }
+
+    .entrance {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+      margin-bottom: 40px;
+    }
+
+    .entrance__text { font-size: 12px; line-height: 2; }
+    .entrance__text h3 { font-size: 13px; font-weight: 500; margin-bottom: 12px; }
+
+    .entrance__img {
+      background: #e8e8e8;
+      border-radius: 4px;
+      aspect-ratio: 4/3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #aaa;
+      font-size: 12px;
+      overflow: hidden;
+    }
+
+    .entrance__img img { width: 100%; height: 100%; object-fit: cover; }
+
+    /* GOODS */
+    .goods {
+      max-width: 800px;
+      margin: 0 auto 60px;
+      padding: 0 24px;
+    }
+
+    .goods__text {
+      font-size: 13px;
+      line-height: 2.2;
+      text-align: center;
+      margin-bottom: 40px;
+      color: var(--text);
+    }
+
+    .goods__note {
+      font-size: 12px;
+      color: var(--text-light);
+      margin-top: 8px;
+    }
+
+    /* GALLERY */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 4px;
+      margin-bottom: 60px;
+    }
+
+    .gallery__item {
+      aspect-ratio: 1;
+      background: #e8e8e8;
+      overflow: hidden;
+    }
+
+    .gallery__item img { width: 100%; height: 100%; object-fit: cover; }
+
+    .gallery__placeholder {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #aaa;
+      font-size: 12px;
+    }
+
+    /* CAFE */
+    .cafe {
+      max-width: 800px;
+      margin: 0 auto 80px;
+      padding: 0 24px;
+      text-align: center;
+    }
+
+    .cafe__logo {
+      margin: 0 auto 24px;
+      width: 200px;
+      height: 60px;
+      background: #f0f0f0;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: #aaa;
+      font-size: 12px;
+      border-radius: 4px;
+    }
+
+    .cafe__logo img { width: 100%; }
+
+    .cafe__text {
+      font-size: 13px;
+      line-height: 2.2;
+      margin-bottom: 32px;
+    }
+
+    .cafe__img {
+      max-width: 500px;
+      margin: 0 auto 32px;
+      background: #e8e8e8;
+      aspect-ratio: 16/9;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #aaa;
+      font-size: 12px;
+      overflow: hidden;
+    }
+
+    .cafe__img img { width: 100%; height: 100%; object-fit: cover; }
+
+    .cafe__info {
+      font-size: 12px;
+      line-height: 2.4;
+      color: var(--text);
+    }
+
+    /* RESPONSIVE: iPad以上はPC */
+    @media (max-width: 767px) {
+      .access { grid-template-columns: 1fr; }
+      .entrance { grid-template-columns: 1fr; }
+      .gallery { grid-template-columns: repeat(2, 1fr); }
+      .overview__table th { width: 80px; font-size: 12px; }
+      .overview__table td { font-size: 12px; }
+    }
   </style>
 </head>
 <body>
-<table cellspacing="0" cellpadding="0">
-  <tbody>
+
+<!-- KV -->
+<section class="kv">
+  <p class="kv__label">土田恵子・たかぎちず　2人展</p>
+  <div class="kv__img">
+    <!-- <img src="assets/img/futari/kv.jpg" alt="Harmony of Life"> -->
+    KVメインビジュアル
+  </div>
+</section>
+
+<!-- INTRO -->
+<section class="intro">
+  <div class="intro__logo">
+    <!-- <img src="assets/img/futari/harmony-logo.png" alt="Harmony of Life"> -->
+    Harmony of Life ロゴ
+  </div>
+  <p class="intro__text">
+    想像の世界を日常に落とし込み<br>
+    作品の一つひとつが醸し出す色<br>
+    異なり合うことで生まれる奇跡<br>
+    土田恵子　たかぎちず<br><br>
+    二人のアーティストが奏でる物語をお届けします
+  </p>
+</section>
+
+<!-- OVERVIEW -->
+<section class="overview">
+  <h2 class="section-title">開催概要</h2>
+  <table class="overview__table">
     <tr>
-      <td valign="middle" class="td1">
-        <p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;&lt;html lang="ja"&gt;&lt;head&gt;&lt;meta charset="utf-8"&gt;&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;&lt;title&gt;</span><span class="s2">２人展｜</span><span class="s1">Harmony  of Life&lt;/title&gt;&lt;link rel="preconnect" href="<a href="https://fonts.gstatic.com/"><span class="s3">https://fonts.gstatic.com</span></a>" crossorigin&gt;&lt;link rel="stylesheet" href="<a href="https://tsuchitashigeko.com/_nuxt/entry.BiNW5dfe.css"><span class="s3">/_nuxt/entry.BiNW5dfe.css</span></a>" crossorigin&gt;&lt;link rel="modulepreload" as="script" crossorigin href="<a href="https://tsuchitashigeko.com/_nuxt/cCwYP72-.js"><span class="s3">/_nuxt/cCwYP72-.js</span></a>"&gt;&lt;script type="module" src="<a href="https://tsuchitashigeko.com/_nuxt/cCwYP72-.js"><span class="s3">/_nuxt/cCwYP72-.js</span></a>" crossorigin&gt;&lt;/script&gt;&lt;meta name="generator" content="Studio.Design"&gt;&lt;meta name="robots" content="all"&gt;&lt;meta property="og:site_name" content="TSUCHITA SHIGEKO"&gt;&lt;meta property="og:title" content="</span><span class="s2">２人展｜</span><span class="s1">Harmony  of Life"&gt;&lt;meta property="og:image" content="https://storage.googleapis.com/production-os-assets/assets/93f805fd-5951-4f68-98a7-824dc678854a"&gt;&lt;meta property="og:description" content="</span><span class="s2">想像の世界を⽇常に落とし込む作品の⼀つひとつが醸し出す⾊重なり合うことで⽣まれる奇跡。</span><span class="s1">"&gt;&lt;meta property="og:type" content="website"&gt;&lt;meta name="description" content="</span><span class="s2">想像の世界を⽇常に落とし込む作品の⼀つひとつが醸し出す⾊重なり合うことで⽣まれる奇跡。</span><span class="s1">"&gt;&lt;meta property="twitter:card" content="summary_large_image"&gt;&lt;meta property="twitter:image" content="https://storage.googleapis.com/production-os-assets/assets/93f805fd-5951-4f68-98a7-824dc678854a"&gt;&lt;meta name="apple-mobile-web-app-title" content="</span><span class="s2">２人展｜</span><span class="s1">Harmony  of Life"&gt;&lt;meta name="format-detection" content="telephone=no,email=no,address=no"&gt;&lt;meta name="chrome" content="nointentdetection"&gt;&lt;meta property="og:url" content="/futari-art"&gt;&lt;link rel="icon" type="image/png" href="<a href="https://storage.googleapis.com/production-os-assets/assets/9a03068a-124f-4f99-94f7-75b51d580a83"><span class="s3">https://storage.googleapis.com/production-os-assets/assets/9a03068a-124f-4f99-94f7-75b51d580a83</span></a>" data-hid="favicon"&gt;&lt;link rel="apple-touch-icon" type="image/png" href="<a href="https://storage.googleapis.com/production-os-assets/assets/9a03068a-124f-4f99-94f7-75b51d580a83"><span class="s3">https://storage.googleapis.com/production-os-assets/assets/9a03068a-124f-4f99-94f7-75b51d580a83</span></a>" data-hid="apple-touch-icon"&gt;&lt;/head&gt;&lt;body&gt;&lt;div id="__nuxt"&gt;&lt;!--[--&gt;&lt;span&gt;&lt;/span&gt;&lt;div&gt;&lt;span&gt;&lt;/span&gt;&lt;!----&gt;&lt;!----&gt;&lt;/div&gt;&lt;!--]--&gt;&lt;/div&gt;&lt;div id="teleports"&gt;&lt;/div&gt;&lt;script&gt;window.__NUXT__={};window.__NUXT__.config={public:{apiBaseUrl:"https://api.studiodesignapp.com/api",cmsApiBaseUrl:"https://api.cms.studiodesignapp.com",firebaseApiKey:"AIzaSyDtGBC8qbNKQ_ibWHZSJmaNfjbOhs7pj5g",firebaseProjectId:"studio-7e371",firebaseAuthDomain:"studio-7e371.firebaseapp.com",firebaseDatabaseURL:"https://studio-7e371.firebaseio.com",firebaseStorageBucket:"studio-7e371.appspot.com",firebaseMessagingSenderId:"373326844567",firebaseAppId:"1:373326844567:web:9d1c205102ce520ce84fd2",studioDomain:".studio.site",studioPublishUrl:"https://storage.googleapis.com/studio-publish",studioPublishIndexUrl:"https://storage.googleapis.com/studio-publish-index",rssApiPath:"https://rss.studiodesignapp.com/rssConverter",embedSandboxDomain:".studioiframesandbox.com",apiProxyUrl:"https://studio-api-proxy-rajzgb4wwq-an.a.run.app",proxyApiBaseUrl:"https://api.studiodesignapp.com/data_proxy_api",isDev:false,fontsApiBaseUrl:"https://fonts.studio.design",selfHostedFontsBaseUrl:"https://fonts.studio.design/ts",studioFrontUrl:"https://app.studio.design",jwtCookieName:"jwt_token",chillnnCdnUrl:"https://cdn.chillnn.com"},app:{baseURL:"/",buildId:"db97075f-622d-4b9f-b6ff-2c77165dc6d1",buildAssetsDir:"/_nuxt/",cdnURL:""}}&lt;/script&gt;&lt;script type="application/json" data-nuxt-data="nuxt-app" data-ssr="true" id="__NUXT_DATA__"&gt;[["ShallowReactive",1],{"data":2,"state":5,"once":7,"_errors":8,"serverRendered":10,"path":11,"pinia":12},["ShallowReactive",3],{"dynamicDatafutari-art":4},null,["Reactive",6],{},["Set"],["ShallowReactive",9],{"dynamicDatafutari-art":-1},true,"\u002Ffutari-art",["Reactive",13],{"cmsContentStore":14,"indexStore":17,"projectStore":20,"productStore":30,"pageHeadStore":265,"cmsStore":269},{"listContentsMap":15,"contentMap":16},["Map"],["Map"],{"routeType":18,"host":19},"publish","tsuchitashigeko.com",{"project":21},{"id":22,"name":23,"customDomain":24,"iconImage":24,"coverImage":25,"displayBadge":26,"integrations":27,"snapshot_path":28,"snapshot_id":29,"recaptchaSiteKey":-1,"conversionEvents":-1},"xPOR5jwbWr","Tsuchita Shigeko","","https:\u002F\u002Fstorage.googleapis.com\u002Fproduction-os-assets\u002Fassets\u002F8fdaba87-b3ac-4491-84ce-3ddc4c267bcd",false,[],"https:\u002F\u002Fstorage.googleapis.com\u002Fstudio-publish\u002Fprojects\u002FxPOR5jwbWr\u002FjOQo98nmaJ\u002F","jOQo98nmaJ",{"product":31,"isLoaded":10,"selectedModalIds":262,"redirectPage":4,"isInitializedRSS":26,"pageViewMap":263,"symbolViewMap":264},{"breakPoints":32,"colors":39,"fonts":40,"head":93,"info":100,"pages":108,"resources":184,"symbols":188,"style":194,"styleVars":196,"enablePassword":26,"classes":228,"publishedUid":261},[33,36],{"maxWidth":34,"name":35},480,"mobile",{"maxWidth":37,"name":38},768,"tablet",[],[41,51,61,77,84,88],{"family":42,"subsets":43,"variants":48,"vendor":50},"Pacifico",[44,45,46,47],"latin","latin-ext","cyrillic","vietnamese",[49],"regular","google",{"family":52,"subsets":53,"variants":55,"vendor":50},"Noto Sans JP",[44,54],"japanese",[56,57,49,58,59,60],"100","300","500","700","900",{"family":62,"subsets":63,"variants":64,"vendor":50},"Barlow Condensed",[44,45,47],[56,65,66,67,57,68,49,69,58,70,71,72,59,73,74,75,60,76],"100italic","200","200italic","300italic","italic","500italic","600","600italic","700italic","800","800italic","900italic",{"family":78,"subsets":79,"variants":83,"vendor":50},"Ubuntu",[46,80,81,82,44,45],"cyrillic-ext","greek","greek-ext",[57,68,49,69,58,70,59,73],{"family":85,"subsets":86,"variants":87,"vendor":50},"Inter",[46,80,81,82,44,45,47],[56,66,57,49,58,71,59,74,60],{"family":89,"subsets":90,"variants":92,"vendor":50},"Noto Sans Zanabazar Square",[44,45,91],"zanabazar-square",[49],{"favicon":94,"lang":95,"meta":96,"title":99},"https:\u002F\u002Fstorage.googleapis.com\u002Fproduction-os-assets\u002Fassets\u002F9a03068a-124f-4f99-94f7-75b51d580a83","ja",{"description":97,"og:image":98},"</span><span class="s2">小さな毎日に、ちょっとした物語を。</span><span class="s1">","https:\u002F\u002Fstorage.googleapis.com\u002Fproduction-os-assets\u002Fassets\u002F93f805fd-5951-4f68-98a7-824dc678854a","TSUCHITA SHIGEKO",{"baseWidth":101,"created_at":102,"screen":103,"type":105,"updated_at":106,"version":107},1280,1518591100346,{"height":104,"isAutoHeight":26,"width":101,"workingState":26},600,"web",1518792996878,"4.2.0",[109,124,128,132,141,149,153,159,166,171,178],{"head":110,"id":114,"position":115,"type":117,"uuid":118,"symbolIds":119},{"meta":111,"title":113},{"description":97,"og:image":112},"https:\u002F\u002Fstorage.googleapis.com\u002Fproduction-os-assets\u002Fassets\u002F42b73466-15a3-4be8-9237-96ae215e104b","Shigeko Tsuchita","\u002F",{"x":116,"y":116},0,"page","4f65eae1-33ef-4fe8-9383-cedc9255f86a",[120,121,122,123],"beaff961-ceb6-4350-a80f-c8e3eabfdb5c","58dd2fea-e5b3-4fa1-b84a-5000692c5f97","beddcaf4-51c9-4adc-b1b8-82564a1fa65c","45fe87f9-d5f9-42e5-a365-dbea499842fe",{"id":125,"type":117,"uuid":126,"symbolIds":127},"sillakissa","4a0d46a2-bac9-4666-a22d-e10efcaf3126",[122,120,121,123],{"id":129,"type":117,"uuid":130,"symbolIds":131},"1","24d3972d-10ef-4a68-922a-c5bc83168d6c",[],{"head":133,"id":137,"type":117,"uuid":138,"symbolIds":139},{"meta":134,"title":113},{"description":135,"og:image":136},"</span><span class="s2">小さな毎日に、ちょっとした物語を。</span><span class="s1"> </span><span class="s2">くすっと笑えて、心がふわっとあたたかくなる。</span><span class="s1"> </span><span class="s2">猫や物語の世界を通して、やさしい時間をお届けします。</span><span class="s1">","https:\u002F\u002Fstorage.googleapis.com\u002Fproduction-os-assets\u002Fassets\u002F5755a0ee-781d-43e8-a731-3c160201d683","room","b6061c72-cbc6-42f1-ae5e-39a07d002069",[140,121,123],"33d1a2fc-28eb-46e3-9649-04cab4ccedbb",{"head":142,"id":146,"type":117,"uuid":147,"symbolIds":148},{"meta":143,"title":145},{"description":144},"</span><span class="s2">想像の世界を⽇常に落とし込む作品の⼀つひとつが醸し出す⾊重なり合うことで⽣まれる奇跡。</span><span class="s1">","</span><span class="s2">２人展｜</span><span class="s1">Harmony  of Life","futari-art","b5f04fa8-8a95-464e-98b9-e246715c242d",[],{"id":150,"type":117,"uuid":151,"symbolIds":152},"404","6b3d0a04-658f-48a9-b284-09cf8f508253",[140,121,123],{"head":154,"id":156,"type":117,"uuid":157,"symbolIds":158},{"meta":155,"title":24},{"description":24,"og:image":24},"cms","d2792e73-21b5-4284-8320-979d3ac19234",[],{"id":160,"query":161,"type":117,"uuid":164,"symbolIds":165},"search",[162],{"key":163},"q","04a07f14-a78b-4e21-b054-8ca52db55c0d",[],{"id":167,"responsive":10,"type":168,"uuid":169,"symbolIds":170},"menu","modal","ea8f5b9b-0621-4b55-898d-8c4455091d7a",[],{"cmsRequest":172,"id":175,"type":117,"uuid":176,"symbolIds":177},{"contentSlug":173,"schemaKey":174},"{{$route.params.slug}}","posts","posts\u002F:slug","0856e8c7-523b-4276-98db-7e8cd73086b1",[],{"cmsRequest":179,"id":181,"type":117,"uuid":182,"symbolIds":183},{"contentSlug":173,"schemaKey":180},"tags","tags\u002F:slug","4b5a6078-a423-4391-b998-75287fcaedbb",[],{"rssList":185,"apiList":186,"cmsProjectId":187},[],[],"nwWDcRmoNVrp6KXPTH3y",[189,190,191,192,193],{"uuid":120},{"uuid":121},{"uuid":123},{"uuid":140},{"uuid":122},{"fontFamily":195},[],{"color":197,"fontFamily":206},[198,202],{"key":199,"name":200,"value":201},"fda8c2c4","base","#e9f6f4ff",{"key":203,"name":204,"value":205},"68898388","menu_text","#8398b0ff",[207,211,214,218,220,223,225],{"key":208,"name":209,"value":210},"45915ef4","</span><span class="s2">日文</span><span class="s1">","'Noto Sans JP'",{"key":212,"name":213,"value":42},"3cb33816","</span><span class="s2">ロゴ、英文見出し</span><span class="s1">",{"key":215,"name":216,"value":217},"c99633bc","</span><span class="s2">英文、本文、見出し</span><span class="s1">","'Barlow Condensed'",{"key":219,"name":24,"value":78},"7bbb0271",{"key":221,"name":24,"value":222},"6ba54696","Inter, 'Noto Sans JP'",{"key":224,"name":24,"value":210},"afaf02ab",{"key":226,"name":24,"value":227},"52afa94b","'Noto Sans Zanabazar Square'",{"typography":229},[230,238,244,249,256],{"key":231,"name":232,"style":233},"__TEXT_STYLE_TITLE_XL","Title-XL",{"fontFamily":234,"fontSize":235,"fontWeight":236,"letterSpacing":116,"lineHeight":237},"var(--s-font-afaf02ab)","48px",700,"1.3",{"key":239,"name":240,"style":241},"__TEXT_STYLE_TITLE_L","Title-L",{"fontFamily":234,"fontSize":242,"fontWeight":236,"letterSpacing":116,"lineHeight":243},"32px","1.4",{"key":245,"name":246,"style":247},"__TEXT_STYLE_TITLE_M","Title-M",{"fontFamily":234,"fontSize":248,"fontWeight":236,"letterSpacing":116,"lineHeight":243},"24px",{"key":250,"name":251,"style":252},"__TEXT_STYLE_PARAGRAPH_L","Paragraph-L",{"fontFamily":234,"fontSize":253,"fontWeight":254,"letterSpacing":116,"lineHeight":255},"16px",400,"1.5",{"key":257,"name":258,"style":259},"__TEXT_STYLE_PARAGRAPH_M","Paragraph-M",{"fontFamily":234,"fontSize":260,"fontWeight":254,"letterSpacing":116,"lineHeight":243},"12px","20251211080016",[],{},["Map"],{"googleFontMap":266,"typesquareLoaded":26,"selfHostedFontIds":267,"hasCustomFont":26,"materialSymbols":268},["Map"],["Set"],[],{"schemas":270,"schemaTree":271,"cmsProject":272,"isShowArchiveSchema":26,"isContentsEmpty":26,"contentsLoaded":26,"contentMap":273,"route":274,"cmsId":24,"dynamicQueries":275,"hasMore":26,"announceMessage":24,"announceId":24},[],{},{},{},{"contentId":24,"schemaId":24,"projectId":24},{}]&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;</span></p>
+      <th>日時</th>
+      <td>2026年1月17日（土）〜18日（日）</td>
+    </tr>
+    <tr>
+      <th>時間</th>
+      <td>
+        1月17日（土）11:00〜19:00<br>
+        1月18日（日）10:00〜17:00
       </td>
     </tr>
-  </tbody>
-</table>
+    <tr>
+      <th>場所</th>
+      <td>
+        〒106-0047<br>
+        東京都港区麻布十丁目6-5 麻布十番ハルモニアビル 2F<br>
+        「HARMONIA SHOWCASE」
+      </td>
+    </tr>
+  </table>
+</section>
+
+<!-- HARMONIA -->
+<section class="harmonia">
+  <div class="harmonia__logo">
+    <div class="harmonia__logo-img">
+      <!-- <img src="assets/img/futari/harmonia-logo.png" alt="HARMONIA 2F SHOWCASE"> -->
+      HARMONIA 2F SHOWCASE ロゴ
+    </div>
+  </div>
+
+  <div class="access">
+    <div class="access__text">
+      <p>
+        <strong>■徒歩からのアクセス</strong>
+        東京メトロ南北線・都営大江戸線「麻布十番」駅 徒歩約5分（220m）<br>
+        東京メトロ日比谷線・都営大江戸線（2番口）徒歩 約4分（220m）<br>
+        東京メトロ南北線 広尾寄側出口（2/4番口）徒歩 約5分（220m）
+      </p>
+      <p>
+        <strong>■バス停からのアクセス</strong>
+        都営バス 橋01 仙台坂下 徒歩約60m（260m）<br>
+        都営バス 橋01 仙台坂下 徒歩約35m（200m）<br>
+        都営バス 橋01 麻布 徒歩 徒歩約60m（260m）
+      </p>
+    </div>
+    <div class="access__map">
+      <!-- <img src="assets/img/futari/map.jpg" alt="地図"> -->
+      マップ画像
+    </div>
+  </div>
+
+  <div class="entrance">
+    <div class="entrance__text">
+      <h3>2F 作品展の入り口</h3>
+      <p>
+        1FにHARMONIA CAFEがあります。<br>
+        その隣（オレンジ部分）にドアがありますので<br>
+        そこから入っていただき先、エレベーターで2Fに上がってください。<br>
+        ※黄色部分はカフェの入り口になります。
+      </p>
+    </div>
+    <div class="entrance__img">
+      <!-- <img src="assets/img/futari/entrance.jpg" alt="入口"> -->
+      会場外観写真
+    </div>
+  </div>
+</section>
+
+<!-- GOODS -->
+<section class="goods">
+  <h2 class="section-title">グッズ販売について</h2>
+  <div class="goods__text">
+    展示作品のほかに、各種グッズも販売いたします。<br>
+    <p class="goods__note">※お支払いは現金のみとなります。</p>
+    <p class="goods__note">※原画イラストをご購入される場合は、施設交付の振込みへの振込みをお願いいたします。</p>
+    <p class="goods__note">２人展終了後、入金確認が取れ次第、発送させていただきます。</p>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<div class="gallery">
+  <div class="gallery__item"><div class="gallery__placeholder">作品1</div></div>
+  <div class="gallery__item"><div class="gallery__placeholder">作品2</div></div>
+  <div class="gallery__item"><div class="gallery__placeholder">作品3</div></div>
+  <div class="gallery__item"><div class="gallery__placeholder">作品4</div></div>
+  <div class="gallery__item"><div class="gallery__placeholder">作品5</div></div>
+  <div class="gallery__item"><div class="gallery__placeholder">作品6</div></div>
+</div>
+
+<!-- CAFE -->
+<section class="cafe">
+  <div class="cafe__logo">
+    <!-- <img src="assets/img/futari/harmonia-cafe-logo.png" alt="Cafe and Snack HARMONIA"> -->
+    Cafe and Snack HARMONIA ロゴ
+  </div>
+  <p class="cafe__text">
+    HARMONIAの各ショップロゴをたかぎちずが担当させていただいた御縁があり今回の開催となりました。<br>
+    作品展のあとは、是非1FのCafe and Snack HARMONIAでおくつろぎください。
+  </p>
+  <div class="cafe__img">
+    <!-- <img src="assets/img/futari/cafe.jpg" alt="Cafe and Snack HARMONIA"> -->
+    カフェ内装写真
+  </div>
+  <div class="cafe__info">
+    土曜　10:00-21:30<br>
+    日・祝　10:00-20:00<br><br>
+    Cafe and Snack HARMONIA<br>
+    〒106-0047<br>
+    東京都港区麻布十丁目6-5 麻布十番ハルモニアビル 1F
+  </div>
+</section>
+
 </body>
 </html>
