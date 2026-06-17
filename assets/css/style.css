@@ -54,7 +54,7 @@ br.sp {display: block;}
 .works__inner__illust { width: min(1600px, calc(100% - 80px)); margin: 0 0 0 160px; }
 .works--illustration { padding: 145px 0 120px; }
 .section-title { margin: 0; font-size: 40px; line-height: 1; font-weight: 500;}
-.illust-slider { display: grid; grid-template-columns: 320px 500px 320px 320px; gap: 36px; align-items: center; }
+.illust-slider { display: grid; grid-template-columns: 300px 500px 300px 300px; gap: 36px; align-items: center; }
 .illust-card img { width: 100%; border-radius: 10px; }
 .illust-card p { margin: 14px 0 0; font-size: 11px; text-align: center; }
 .illust-card--large img { aspect-ratio: 1 / 1.08; object-fit: cover; }
