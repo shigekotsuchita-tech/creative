@@ -149,7 +149,7 @@ img { max-width: 100%; display: block; }
 }
 
 .harmonia__logo-img {
-  width: 390px;
+  width: 360px;
   height: 60px;
   display: inline-flex;
   align-items: center;
@@ -264,8 +264,8 @@ img { max-width: 100%; display: block; }
 }
 
 .cafe__logo {
-  margin: 0 auto 24px;
-  width: 390px;
+  margin: 0 auto 60px;
+  width: 360px;
   height: 60px;
   display: inline-flex;
   align-items: center;
