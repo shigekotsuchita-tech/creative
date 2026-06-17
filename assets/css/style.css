@@ -168,7 +168,7 @@ br.sp {display: block;}
   .kv__links .text-link { width: 90%; }
 
   .works__inner, .works__heading, .works__body-inner { width: calc(100% - 48px); }
-  .works__inner__illust { width: calc(100% - 48px); }
+  .works__inner__illust { width: calc(100% - 40px); }
   .works__heading {padding-bottom: 26px;}
   .works--illustration { padding: 70px 0 80px; }
   .section-title { margin-bottom: 42px; font-size: 32px; text-align: center; }
