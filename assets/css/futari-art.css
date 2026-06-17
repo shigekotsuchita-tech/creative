@@ -108,7 +108,7 @@ img { max-width: 100%; display: block; }
   letter-spacing: 0.15em;
   text-align: center;
   padding-bottom: 16px;
-  border-bottom: 1px solid var(--border);
+  margin-bottom: 20px;
 }
 
 .overview__table {
@@ -139,7 +139,7 @@ img { max-width: 100%; display: block; }
 /* HARMONIA */
 .harmonia {
   max-width: 800px;
-  margin: 0 auto 60px;
+  margin: 0 auto 120px;
   padding: 0 24px;
 }
 
@@ -216,7 +216,7 @@ img { max-width: 100%; display: block; }
 }
 
 .goods__text {
-  font-size: 13px;
+  font-size: 16px;
   line-height: 2.2;
   text-align: center;
   margin-bottom: 40px;
@@ -257,7 +257,7 @@ img { max-width: 100%; display: block; }
 
 /* CAFE */
 .cafe {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto 80px;
   padding: 0 24px;
   text-align: center;
@@ -277,7 +277,7 @@ img { max-width: 100%; display: block; }
 .cafe__logo img { width: 100%; }
 
 .cafe__text {
-  font-size: 13px;
+  font-size: 16px;
   line-height: 2.2;
   margin-bottom: 32px;
 }
