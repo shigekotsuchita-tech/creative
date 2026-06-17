@@ -1,4 +1,4 @@
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
       --white: #ffffff;
@@ -8,9 +8,25 @@
       --border: #e0e0e0;
       --yellow: #d4c832;
       --pink: #e8a0a0;
-      --font: 'Noto Sans JP', sans-serif;
+      --font: "Helvetica Neue", Arial, "Hiragino Sans", "Yu Gothic", sans-serif;
     }
 
+.site-header { position: fixed; z-index: 50; top: 42px; left: 56px; right: 56px; display: flex; justify-content: space-between; align-items: center; color: #fff; }
+.site-header--dark { color: #111; }
+.site-header__logo { font-weight: 700; font-size: 16px; letter-spacing: .04em; }
+.site-header__menu { width: 38px; height: 22px; border: 0; padding: 0; background: transparent; color: inherit; cursor: pointer; }
+.site-header__menu span { display: block; height: 1px; margin-left: auto; background: currentColor; }
+.site-header__menu span:first-child { width: 38px; }
+.site-header__menu span:last-child { width: 24px; margin-top: 12px; }
+
+.global-menu { position: fixed; z-index: 100; inset: 0 0 0 auto; width: 360px; padding: 128px 0 0 78px; color: #fff; background: rgba(23,71,76,.92); transform: translateX(100%); transition: transform .35s ease; }
+.global-menu.is-open { transform: translateX(0); }
+.global-menu__close { position: absolute; top: 46px; right: 58px; width: 56px; height: 56px; border: 0; background: transparent; cursor: pointer; }
+.global-menu__close::before, .global-menu__close::after { content: ""; position: absolute; top: 27px; left: 0; width: 70px; height: 1px; background: #fff; }
+.global-menu__close::before { transform: rotate(45deg); }
+.global-menu__close::after { transform: rotate(-45deg); }
+.global-menu__list { list-style: none; padding: 0; margin: 0; }
+.global-menu__list a { display: block; margin-bottom: 28px; font-size: 28px; font-weight: 700; }
     body { font-family: var(--font); color: var(--text); font-weight: 300; background: var(--white); }
 
     img { max-width: 100%; display: block; }
