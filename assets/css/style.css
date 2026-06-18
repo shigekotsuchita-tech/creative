@@ -164,8 +164,8 @@ br.sp {display: block;}
   .kv__movie iframe { transform: scale(2.8); }
   .kv__line-art { top: auto; bottom: -50px; left: 0px; width: 50%; }
   .kv__content { top: 140px; right: 0; left: 0px; width: calc(100% - 80px); margin: 0 auto;}
-  .kv__title { font-size: 19px; margin-bottom: 26px; text-align: center;}
-  .kv__text { font-size: 11px; line-height: 2.6; margin-bottom: 26px; text-align: center;}
+  .kv__title { font-size: 22px; margin-bottom: 26px; text-align: center;}
+  .kv__text { font-size: 14px; line-height: 2.6; margin-bottom: 26px; text-align: center;}
   .kv__links { gap: 36px; }
   .text-link { width: 100%; font-size: 14px; margin: 0 auto;}
   .text-link::after { width: 100%; }
